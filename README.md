@@ -1,6 +1,6 @@
-Create and clone empty repository
+The code below can be found in its final form in this repository on github:
 
-    $ git clone ssh://user@gitlab.net/sf-servant-tutorial.git
+    git@github.com:rubenmoor/sf-servant-tutorial.git
 
 Initialize new project with `stack`
 
@@ -134,7 +134,6 @@ Mocking some data entries.
     -- imagine a database action
     getUsers :: IO [User]
     getUsers = pure [alice, bob]
-
 
 Now build the actual "servant application"
 

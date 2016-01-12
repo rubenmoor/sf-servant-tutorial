@@ -26,7 +26,7 @@ data User = User
   , userEmail :: String
   } deriving (Generic)
 
--- some ghc bug that generates a warning
+-- a bug somewhere else that generates a warning
 instance ToJSON User
 
 -- instad of a database
